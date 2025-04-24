@@ -1,0 +1,38 @@
+{
+    "name": "Santiago",
+    "lastname": "Arrieta",
+    "age": 19,
+    "nickname": "Savenar",
+    "hobbies": [
+        "read",
+        "sing",
+        "eat"
+    ],
+    "address": {
+        "street": "Alameda del Rio",
+        "city": "Barranquilla"
+    },
+    "married": true,
+    "friends": [
+        {
+            "name": "Marcela",
+            "nickname": "Marce1010"
+        },
+        {
+            "name": "Juan",
+            "nickname": "Juan123"
+        },
+        {
+            "name": "Danna",
+            "nickname": "Dannita"
+        },
+        {
+            "name": "Samuel",
+            "nickname": "Samuelin"
+        },
+        {
+            "name": "Monica",
+            "nickname": "Mony"
+        }
+    ]
+}
