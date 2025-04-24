@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Yrsa:ital,wght@0,300;1,300&display=swap');
+
+body {
+  
+  font-family: "Yrsa", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: "normal";
+  background-color: #3D365C;
+}
+
+#seleccionar-mascota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  color: aqua;
+  font-size: 32px;
+  font-family: "Playwrite AU SA";
+}
+
+.subtitulo {
+  color: aqua;
+  font-size: 24px;
+  font-family: "Playwrite AU SA";
+}
+
+
+
+.tarjetas, .tarjetas-ataques {
+  display: flex;
+  gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 180px;
+    height: 100px;
+    background: #F8B55F;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+  }
+  
+.tarjeta-de-mokepon img {
+  width: 80px;
+}
+
+#boton-mascota {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background: #F8B55F;
+  border: 2px solid black;
+  color: aqua;
+  font-family: "Yrsa", serif;
+  margin-top: 10px;
+}
+
+input {
+    display: none;
+  }
+
+#seleccionar-ataque {
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton-de-ataque {
+  background-color: #F8B55F;
+  padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100px;
+    color: aqua;
+    font-family: "Yrsa", serif;
+    font-size: 16px;
+}
+
+#mensajes {
+  width: 280px;
+    background: #F8B55F;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: aqua;
+}
+
+#boton-reiniciar{
+  background-color: #3D365C;
+  border: 2px solid black;
+  margin-top: 15px;
+  color: aqua;
+  font-family: "Yrsa", serif;
+}
+
+.ataques {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  color: aqua;
+}
+
+.ataques-jugador, .ataques-enemigo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#vidas-jugador, #vidas-enemigo {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+
+
+@media (max-width: 360px) {
+  .tarjetas, .tarjetas-ataques {
+    flex-direction: column;
+  }
+
+}
